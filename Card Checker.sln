@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card Checker", "Card Checker\Card Checker.csproj", "{8BE1FBE3-E2CA-4BD7-93B0-E0B650EB6BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{92366779-C10B-4058-9B6D-A3A24899C5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{4C10EDD7-853A-4917-9944-7194B5CB5BE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{07FDDB9A-A04A-4809-A0F2-4E34F1C171EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{A29AB200-4D17-44D2-88F4-440BD71B6374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlCardReader", "HtmlCardReader\HtmlCardReader.csproj", "{C64D92B3-72B6-46EB-A753-27598566B9E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE1FBE3-E2CA-4BD7-93B0-E0B650EB6BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE1FBE3-E2CA-4BD7-93B0-E0B650EB6BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE1FBE3-E2CA-4BD7-93B0-E0B650EB6BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE1FBE3-E2CA-4BD7-93B0-E0B650EB6BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92366779-C10B-4058-9B6D-A3A24899C5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92366779-C10B-4058-9B6D-A3A24899C5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92366779-C10B-4058-9B6D-A3A24899C5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92366779-C10B-4058-9B6D-A3A24899C5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C10EDD7-853A-4917-9944-7194B5CB5BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C10EDD7-853A-4917-9944-7194B5CB5BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C10EDD7-853A-4917-9944-7194B5CB5BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C10EDD7-853A-4917-9944-7194B5CB5BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64D92B3-72B6-46EB-A753-27598566B9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64D92B3-72B6-46EB-A753-27598566B9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64D92B3-72B6-46EB-A753-27598566B9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64D92B3-72B6-46EB-A753-27598566B9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BE1FBE3-E2CA-4BD7-93B0-E0B650EB6BC7} = {07FDDB9A-A04A-4809-A0F2-4E34F1C171EE}
+		{92366779-C10B-4058-9B6D-A3A24899C5BE} = {07FDDB9A-A04A-4809-A0F2-4E34F1C171EE}
+		{4C10EDD7-853A-4917-9944-7194B5CB5BE5} = {A29AB200-4D17-44D2-88F4-440BD71B6374}
+		{C64D92B3-72B6-46EB-A753-27598566B9E9} = {07FDDB9A-A04A-4809-A0F2-4E34F1C171EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49A57013-2DC8-43B1-AD91-C15873211292}
+	EndGlobalSection
+EndGlobal
